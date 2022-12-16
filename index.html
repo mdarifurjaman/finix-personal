@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Fonts For Website -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font-awesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+  <!-- <CSS Style Sheet Link> -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Javascript CDN Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Slick Carousel JavaScript CDN Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+  <!-- <Tab Bar Logo Icon> -->
+  <link rel="shortcut icon" href="./img/logo2.png" type="image/x-icon">
+
+  <title>Finix-Personal Project</title>
+</head>
+
+
+<body>
+  <div class="finix-project">
+
+    <!-- Navbar Section Start -->
+
+    <nav class="navbar navbar-expand-sm navbar-light header-shadow is-sticky">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="Logo">
+        </a>
+
+        <!-- Navbar responsive Toggler Button -->
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Menu Link -->
+        <div class="collapse navbar-collapse" id="navbarText">
+
+          <ul class="navbar-nav ml-auto primary-menu">
+            <li><a href="#" class="active">Home <i class="fas fa-angle-down"></i> </a>
+              <ul>
+                <li><a href="#">Home One</a></li>
+                <li><a href="#" class="active">Home Two</a></li>
+                <li><a href="#">Home Three</a></li>
+              </ul>
+
+            </li>
+            <li><a href="#">Services <i class="fas fa-angle-down"></i> </a>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services Area</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Back</a></li>
+                <li><a href="#">Previous</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Product <i class="fas fa-angle-down"></i> </a>
+              <ul>
+                <li><a href="#">Simple Systems</a></li>
+                <li><a href="#">Solar Systems</a></li>
+                <li><a href="#">Services Devices</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Electronics Equipments</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Back</a></li>
+                <li><a href="#">Previous</a></li>
+              </ul>
+            </li>
+            <li><a href="#">About <i class="fas fa-angle-down"></i> </a>
+              <ul>
+                <li><a href="#">Web Details</a></li>
+                <li><a href="#">Web Application</a></li>
+                <li><a href="#">Site Preview</a></li>
+                <li><a href="#">FAQ's</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Portfolio</a></li>
+          </ul>
+
+          <!-- Navbar Search, Call & Button Sec -->
+          <div class="header-info d-flex align-items-center">
+
+            <div class="header-search">
+              <span> <i class="fas fa-search"></i> </span>
+            </div>
+
+            <div class="header-call">
+              <div class="header-call-icon float-left">
+                <span> <i class="fas fa-phone-volume"></i> </span>
+              </div>
+              <div class="header-call-info">
+                <span>Call Now</span>
+                <a href="tel:+8801408756361">+8801408-756361</a>
+              </div>
+            </div>
+            <div class="header-button">
+              <a href="#" class="btn btn-primary">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar Section End -->
+
+    <!-- Main Banner Section Start -->
+
+    <div class="main-banner-sec banner-area">
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="main-banner-content">
+                  <span>We are here for</span>
+                  <h1>We believe in those made to do more</h1>
+                  <p>Loans are advantageous as a relatively inexpensive way of borrowing money. Start or grow your own
+                    business</p>
+                </div>
+
+                <div class="common-button">
+                  <a href="#" class="btn btn-primary" target="_blank">View More</a>
+                </div>
+
+                <div class="banner-social-buttons">
+                  <ul>
+                    <li><span>Follow us</span></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+                <a href="#" class="buy-now-btn" target="_blank">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Banner Section End -->
+
+    <!-- Partner Section Start Here -->
+
+    <div class="partners-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-6 col-sm-12">
+            <div class="partners-logos slider">
+              <div class="slide"><img src="./img/partner1.png" alt="partner logo"></div>
+              <div class="slide"><img src="./img/partner2.png" alt="partner logo"></div>
+              <div class="slide"><img src="./img/partner3.png" alt="partner logo"></div>
+              <div class="slide"><img src="./img/partner4.png" alt="partner logo"></div>
+              <div class="slide"><img src="./img/partner3.png" alt="partner logo"></div>
+              <div class="slide"><img src="./img/partner4.png" alt="partner logo"></div>
+              <div class="slide"><img src="./img/partner5.png" alt="partner logo"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partner Section End Here -->
+
+    <!-- Company About Section Start Here -->
+
+    <div class="com-about-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 align-items-center">
+            <div class="about-warp">
+              <img src="./img/about.png" alt="company image">
+              <div class="about-cir-content">
+                <div class="circle-txt text">
+                  <h2>25</h2>
+                  <span>Years Of Experience</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="com-about-content">
+
+              <div class="common-heading">
+                <span>About Company</span>
+                <h2>We have been working very efficiently with loan and funding for 25 years.</h2>
+                <p>Lorem ipsum dolor sit ament, consenter advising elite, sed do elusion tempore incident ut laborer et
+                  dolores magna aliquant. Quia ipsum suspensive utricles gravid.</p>
+              </div>
+
+              <div class="business-focus">
+                <ul>
+                  <span>In business, we focus on 3 things.</span>
+                  <li> <i class="fas fa-check"></i> Useful info </li>
+                  <li> <i class="fas fa-check"></i> Reliability </li>
+                  <li> <i class="fas fa-check"></i> Innovation </li>
+                </ul>
+              </div>
+
+              <div class="common-button">
+                <a href="#" class="btn btn-primary" target="_blank">View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Company About Section End Here -->
+
+    <!-- Transparent process Section Start Here -->
+
+    <div class="transparent-pro-section">
+      .<div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 align-items-center">
+            <div class="choose-area">
+              <div class="common-heading">
+                <span>Transparent Process</span>
+                <h1>Why people choose us</h1>
+                <p>Lorem ipsum dolor sit ament, consenter advising. Lorem ipsum dolor sit amen consenter adipisicing
+                  elite. Harem, distinction.</p>
+              </div>
+
+              <div class="choose-image">
+                <img src="./img/choose.png" alt="choose image">
+                <a href="https://youtu.be/t85XTxHEyuM" target="_blank" title="leo messi unstoppable"
+                  class="video-btn popup-you">
+                  <i class="fa fa-play-circle" aria-hidden="true"></i>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="choose-content choose-box1">
+                  <div class="icon">
+                    <i class="fab fa-grav" aria-hidden="true"></i>
+                  </div>
+                  <h3>Guarantee</h3>
+                  <p>Lorem ipsum dolor sit ament, consenter advising. Lorem ipsum dolor sit amen consenter adipisicing
+                    elite. Harem, distinction.</p>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="choose-content choose-box2">
+                  <div class="icon">
+                    <i class="fab fa-wpexplorer" aria-hidden="true"></i>
+                  </div>
+                  <h3>Speed</h3>
+                  <p>Without speed, you muscles lack power, intimidation and might. They are simply for show and helping
+                    friends move heavy furniture.</p>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="choose-content choose-box3">
+                  <div class="icon">
+                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                  </div>
+                  <h3>Reliability</h3>
+                  <p>A reliable source is one that provides a thorough, well-reasoned theory, argument, discussion, etc.
+                    based on strong evidence.</p>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="choose-content choose-box4">
+                  <div class="icon">
+                    <i class="fab fa-yelp" aria-hidden="true"></i>
+                  </div>
+                  <h3>Experience</h3>
+                  <p>The birth of a grandchild. A reconciliation or reunion with a loved one. Immersing yourself in a
+                    new culture or way of life.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Transparent process Section End Here -->
+
+
+    <!-- Deserve Section Start Here -->
+
+    <div class="deserve-section">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="common-heading  deserve-heading">
+            <span>Funding circles</span>
+            <h1>You deserve a better business loan</h1>
+            <p class="w-sm-100">The birth of a grandchild. A reconciliation or reunion with a loved one. Immersing
+              yourself in a new culture or way of life.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 pb-5">
+            <div class="deserve-items">
+              <h3>We usually follow 4 steps to get a better business loans.</h3>
+              <div class="deserve-timeline">
+                <ul>
+                  <li data-counter="1">
+                    <strong>Apply in 10 minutes</strong>
+                    <p>Application Process means the process of reviewing and making a determination on the Completed
+                      Application. A reconciliation or reunion with a loved one.</p>
+                  </li>
+
+                  <li data-counter="2">
+                    <strong>Hear from us in 1 hour</strong>
+                    <p>If you're already at the level of having good clear English then you should expect to put in
+                      around 6 months of practice to sound like a native English speaker.</p>
+                  </li>
+
+                  <li data-counter="3">
+                    <strong>A decision in 24 hours</strong>
+                    <p>The 24 hour rule is a tried and true way to prevent workplace chaos and make wiser decision.
+                      Nowadays, everything happens at hyper-speed.</p>
+                  </li>
+
+                  <li data-counter="4">
+                    <strong>Your loan is funded</strong>
+                    <p>Funding is the disbursing or wiring of money from your lender to your title or escrow company to
+                      pay for the home you're purchasing.</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="common-button">
+                <a href="#" class="btn btn-primary" target="_blank">Apply Now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="deserve-form rate-form">
+              <div class="common-heading rate-content">
+                <span>Calculate Your Rate</span>
+                <h3>How much do you need?</h3>
+              </div>
+              <div class="calculate-form">
+
+                <form action="#">
+                  <div class="form-group">
+                    <label for="type-money">Type The Money</label>
+                    <input type="text" class="form-control" name="money" id="type-money" aria-describedby="helpId"
+                      placeholder="$1000">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="type-month">Select The Month/Years</label>
+                    <select class="form-select" id="type-month" aria-label="Default select example">
+                      <option selected>1 Month</option>
+                      <option value="1">2 Month</option>
+                      <option value="2">3 Month</option>
+                      <option value="3">4 Month</option>
+                      <option value="3">5 Month</option>
+                      <option value="3">6 Month</option>
+                      <option value="3">7 Month</option>
+                      <option value="3">8 Month</option>
+                      <option value="3">9 Month</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="type-borrowing">Borrowing</label>
+                    <input type="text" class="form-control" name="borrowing" id="type-borrowing"
+                      aria-describedby="helpId" placeholder="$10000">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="type-term">Term Of Use</label>
+                    <input type="text" class="form-control" name="Term" id="type-term" aria-describedby="helpId"
+                      placeholder="6 Month">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="type-total">The Total You Will Pay</label>
+                    <input type="text" class="form-control" name="total" id="type-total" aria-describedby="helpId"
+                      placeholder="$11200">
+                  </div>
+                </form>
+
+                <div class="common-button">
+                  <a href="#" class="btn btn-primary w-100" target="_blank">Apply for this loan</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Deserve Section End Here -->
+
+
+    <!-- Call To Action Section Start Here -->
+
+    <div class="call-to-action-area">
+      <div class="container-fluid">
+        <div class="call-to-action-bg">
+          <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-12">
+              <div class="call-to-action">
+                <h2>We are here to help your business Call to discuss your Solution</h2>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <div class="call-to-action-icon">
+                <div class="call-volume d-flex">
+                  <span><i class="fas fa-phone-volume    "></i></span>
+                  <a href="tel: +1 (514) 312-5678">+1 (514) 312-5678</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call To Action Section End Here -->
+
+
+    <!-- Company Value Section Start Here -->
+
+    <div class="company-value-section">
+      .<div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="company-content-area">
+              <h2>Our company values</h2>
+              <div class="company-all-content mb-2 d-flex">
+                <div class="company-icon">
+                  <span><i class="fas fa-lightbulb" aria-hidden="true"></i></span>
+                </div>
+                <div class="company-icon-content">
+                  <h4>Innovative</h4>
+                  <p> Innovation is the practical implementation of ideas that result in the introduction of new goods or services or improvement in offering goods or services.</p>
+                </div>
+              </div>
+
+              <div class="company-all-content mb-2 d-flex">
+                <div class="company-icon">
+                  <span><i class="fas fa-tree" aria-hidden="true"></i></span>
+                </div>
+                <div class="company-icon-content">
+                  <h4>Talent</h4>
+                  <p> Talent Technology Services Limited is a British radio, telecommunications, and digital infrastructure systems installation and services provision company.</p>
+                </div>
+              </div>
+
+              <div class="company-all-content mb-2 d-flex">
+                <div class="company-icon">
+                  <span><i class="fas fa-key" aria-hidden="true"></i></span>
+                </div>
+                <div class="company-icon-content">
+                  <h4>Enabling</h4>
+                  <p> An enabling technology is an invention or innovation that can be applied to drive radical change in the capabilities of a user or culture.</p>
+                </div>
+              </div>
+
+              <div class="company-all-content mb-2 d-flex">
+                <div class="company-icon">
+                  <span><i class="fa fa-sign-language" aria-hidden="true"></i></span>
+                </div>
+                <div class="company-icon-content">
+                  <h4>Commercially responsible</h4>
+                  <p> An innovation is often a new product, but it can also be a new way of doing something or even a
+                    new way of thinking.</p>
+                </div>
+              </div>             
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="company-img">
+              <img src="./img/company.png" alt="company value image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Company Value Section End Here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+  <!-- External JavaScript Linkup-->
+
+  <script src="finix.js"></script>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+
+
+</body>
+
+</html>
