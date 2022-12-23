@@ -1179,3 +1179,86 @@ body .btn-primary:focus{
 }
 
 /* Professional Services Section End Here */
+
+
+/* Client Section Start Here */
+
+.client-section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.client-section-title {
+    margin-bottom: 55px;
+}
+
+.client-slider-text p {
+    font-size: 22px;
+    margin-top: 65px;
+    line-height: 1.8;
+}
+
+.client-slider-text span {
+    color: var(--finix);
+    font-weight: 500;
+}
+
+.client-slider-text h6 {
+    display: block;
+    color: #606060;
+    margin-top: 11px;
+    font-weight: 400;
+}
+
+.client-slider-img span {
+    position: absolute;
+    bottom: 55px;
+    right: 445px;
+}
+
+.client-slider-img span i{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    text-align: center;
+    font-size: 50px;
+    color: #e73c3e;
+    border-radius: 50px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.client-slider-img span i:hover{
+    background-color: var(--finix);
+    color: #FFFFFF;
+}
+
+.client-slider-btn {
+    position: absolute;
+    top: 370px;
+}
+
+.client-slider-btn button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    line-height: 20px;
+    border: 1px solid #606060;
+    background-color: transparent;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    text-align: center;
+    font-size: 50px;
+    color: #606060;
+    border-radius: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* Client Section End Here */
