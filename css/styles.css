@@ -401,8 +401,9 @@ body .btn-primary:focus{
     text-decoration: none;
 }
 
-.buy-now-btn:hover{
+.buy-now-btn:hover {
     background-color: var(--finix);
+    border: 1px solid #82b440;
 }
 
 @keyframes tada {
@@ -1260,5 +1261,334 @@ body .btn-primary:focus{
     cursor: pointer;
 }
 
-
 /* Client Section End Here */
+
+/* leadership Section Start Here */
+
+.leadership-section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.leadership-section-title {
+    margin-bottom: 55px;
+}
+
+.image-partner img{
+    width: 100%;
+    height: auto;
+}
+
+.image-partner{
+    position: relative;
+}
+
+.leader-social-profile {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.leadership-card-content {
+    margin-top: 25px;
+}
+
+.leadership-card-content span {
+    color: var(--finix);
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
+.leadership-card-content p {
+    color: #606060;
+    margin-top: 5px;
+    display: block;
+}
+
+.leader-social-profile ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 22px;
+}
+
+.leader-social-profile ul li {
+    display: inline-block;
+    transition: .5s ease-in-out;
+    transform: translateY(45px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.leadership-card-p:hover .leader-social-profile ul li{
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.leadership-card-p .leader-social-profile ul li:nth-child(1) {
+    transition-delay: .2s;
+}
+
+.leadership-card-p .leader-social-profile ul li:nth-child(2) {
+    transition-delay: .3s;
+}
+
+.leadership-card-p .leader-social-profile ul li:nth-child(3) {
+    transition-delay: .4s;
+}
+
+.leadership-card-p .leader-social-profile ul li:nth-child(4) {
+    transition-delay: .5s;
+}
+
+.leader-social-profile ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+.leader-social-profile ul li a i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: aliceblue;
+    color: #000000;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.leader-social-profile ul li a i:hover {
+    background-color: var(--finix);
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+/* leadership Section End Here */
+
+/* Story Posts Section Start Here */
+
+.story-posts-section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.story-posts-section-title {
+    margin-bottom: 55px;
+}
+
+.story-posts-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.story-posts-content {
+    font-family: 'Rubik';
+}
+
+.story-posts-content p {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Rubik';
+    color: #e73c3e;
+}
+
+.story-posts-content h3{
+    margin-bottom: 15px;
+}
+
+.story-posts-content h3 a {
+    text-decoration: none;
+    color: #111;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.story-posts-content h3 a:hover {
+    color: #e73c3e;
+}
+
+.story-posts-content a {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.story-posts-area:hover .story-posts-content a {
+    color: #e73c3e;
+    letter-spacing: 1.01px;
+}
+
+.story-posts-area:hover .story-posts-content h3 a{
+    letter-spacing: 0px;
+    color: #111;
+    transition: 0.4s;
+}
+
+.story-posts-area:hover .story-posts-content h3 a:hover{
+    letter-spacing: 0px;
+    color: #e73c3e;
+}
+
+/* Story Posts Section End Here */
+
+/* Top Footer Section Start Here */
+
+.top-footer-section {
+    padding-top: 30px;
+}
+
+.top-footer-area {
+    background-color: #111111;
+    padding-top: 110px;
+    padding-bottom: 100px;
+    color: aliceblue;
+}
+
+.top-footer-content {
+    width: 100%;
+    height: auto;
+}
+
+.footer-logo a{
+    text-decoration: none;
+}
+
+.footer-logo a img{
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.footer-sub-content {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.footer-sub-content p {
+    text-align: justify;
+    line-height: 1.7;
+    font-family: 'Rubik';
+}
+
+.top-footer-media {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.top-footer-media span {
+    font-weight: 600;
+}
+
+.top-footer-media ul {
+    text-align: center;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.top-footer-media ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.top-footer-media ul li a {
+    text-decoration: none;
+}
+
+.top-footer-media ul li a i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.top-footer-media ul li a i:hover {
+    color: #e73c3e;
+}
+
+.footer-link-s {
+    padding-left: 22px;
+}
+
+.footer-heading h3 {
+    border-bottom: 1px solid #292929;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-quick-link ul {
+    padding-left: 0px;
+}
+
+.footer-quick-link ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.footer-quick-link ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.footer-quick-link ul li a:hover {
+    color: #e73c3e;
+    letter-spacing: 1.1px;
+}
+
+.footer-quick-link ul li i {
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 25px;
+}
+
+.footer-quick-link ul li p {
+    margin-top: -4px;
+}
+
+/* Top Footer Section End Here */
+
+/* Bottom Footer Section Start Here */
+
+.bottom-footer-area {
+    background-color: #111111;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    border-top: 1px solid #292929;
+}
+
+.copyright-area {
+    display: block;
+    text-align: center;
+}
+
+.copyright-area p {
+    color: #555555;
+    font-size: 17px;
+    font-family: 'Rubik';
+}
+
+.copyright-area a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.copyright-area a:hover {
+    color: #e73c3e;
+}
+
+/* Bottom Footer Section End Here */
