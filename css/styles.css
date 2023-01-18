@@ -403,7 +403,7 @@ body .btn-primary:focus{
 
 .buy-now-btn:hover {
     background-color: var(--finix);
-    border: 1px solid #82b440;
+    border: 1px solid #e73c3e;
 }
 
 @keyframes tada {
