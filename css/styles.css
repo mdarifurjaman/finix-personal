@@ -1592,3 +1592,55 @@ body .btn-primary:focus{
 }
 
 /* Bottom Footer Section End Here */
+
+/* Go To Button Part Start Here */
+
+.go-top.active {
+    opacity: 1;
+    visibility: visible;
+    bottom: 20px;
+}
+
+.go-top {
+    position: fixed;
+    cursor: pointer;
+    bottom: -100px;
+    right: 20px;
+    color: #ffffff;
+    background-color: #111111;
+    text-decoration: none;
+    z-index: 4;
+    width: 45px;
+    text-align: center;
+    height: 45px;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 50%;
+    font-size: 22px;
+    -webkit-transition: .9s;
+    transition: .9s;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.go-top i {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.go-top:hover {
+    background-color: var(--finix);
+    color: #FFFFFF;
+}
+/* Go To Button Part End Here */
