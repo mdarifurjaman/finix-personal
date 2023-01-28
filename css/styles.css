@@ -1647,13 +1647,333 @@ body .btn-primary:focus{
 
 
 /* Full Website Responsive Here Start */
+@media only screen and (max-width: 1110px) {
+    ul.primary-menu li a {
+        text-decoration: none;
+        display: inline-block;
+        color: #111111;
+        font-weight: 500;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+        word-spacing: 2px;
+        width: 89px;
+    }
 
-/* @media only screen and (min-width: 992px) {
-   
+    .header-search {
+        width: 50px;
+        text-align: center;
+        font-size: 15px;
+        margin-right: 10px;
+        border-right: 1px solid #8d868663;
+        cursor: pointer;
+    }
+
+    .header-call {
+        width: 197px;
+    }
+
+    .header-call-icon {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .header-call-info {
+        width: 150px;
+    }
+
+    .header-call-info a {
+        text-decoration: none;
+        color: #111111;
+        font-weight: 500;
+    }
+
+    .header-button {
+        width: 155px;
+        margin-left: 0px;
+        border-radius: 5px;
+    }
+
+    .main-banner-sec {
+        background-image: url(../img/main-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        position: relative;
+        z-index: 1;
+        height: 740px;
+        padding-top: 0px;
+    }
+
+    .main-banner-content h1 {
+        font-size: 49px;
+        font-weight: 500;
+        margin-bottom: 14px;
+        display: block;
+        color: #000000;
+    }
+
+    .deserve-timeline ul::before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: calc(100% - 112px);
+        top: 0;
+        left: 20px;
+        background: #e73c3e;
+    }
+
+    .client-slider-img span {
+        position: absolute;
+        bottom: 55px;
+        right: 350px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .choose-content::before {
+        position: absolute;
+        content: "";
+        height: 54%;
+        width: 100%;
+        background-color: #fdebeb;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        transition: 0.5s;
+        border-radius: 50%;
+        margin: auto;
+        top: -110px;
+    }
+
+    .choose-content {
+        position: relative;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        z-index: 0;
+        transition: 0.5s;
+        background-color: #ffffff;
+    }
 }
 
 
-@media only screen and (min-width: 768px) {} */
+
+
+
+@media only screen and (max-width: 992px) {
+    ul.primary-menu li a {
+        text-decoration: none;
+        display: inline-block;
+        color: #111111;
+        font-weight: 500;
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+        word-spacing: 2px;
+        width: 80px;
+    }
+
+    .align-items-center {
+        align-items: center !important;
+    }
+
+    .header-info {
+        width: 455px;
+    }
+
+    .header-search {
+        width: 40px;
+        text-align: center;
+        font-size: 15px;
+        margin-right: 15px;
+        border-right: 1px solid #8d868663;
+        cursor: pointer;
+    }
+
+    .header-call {
+        width: 150px;
+    }
+
+    .header-call-icon {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .header-call-info a {
+        text-decoration: none;
+        color: #111111;
+        font-weight: 400;
+    }
+
+    .header-button {
+        width: 155px;
+        margin-left: 25px;
+        border-radius: 5px;
+    }
+
+    body .btn-primary {
+        color: #fff;
+        background-color: var(--finix) !important;
+        border-color: var(--finix) !important;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        position: relative;
+        z-index: 0;
+    }
+
+    .main-banner-sec {    
+        height: 730px;
+    }
+
+    .main-banner-content h1 {
+        font-size: 46px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        display: block;
+        color: #000000;
+    }
+
+    .partners-section {
+        background-color: hsl(0, 0%, 98%);
+        border-bottom: 1px solid #e5e5e5;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .com-about-content {
+        margin-left: 25px;
+    }
+
+    .com-about-section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .transparent-pro-section {
+        padding-top: 55px;
+        padding-bottom: 50px;
+        background-color: #f9fafa;
+    }
+
+    .choose-content::before {
+        position: absolute;
+        content: "";
+        height: 45%;
+        width: 100%;
+        background-color: #fdebeb;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        transition: 0.5s;
+        border-radius: 50%;
+        margin: auto;
+        top: -110px;
+    }
+
+    .choose-content {
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        z-index: 0;
+        transition: 0.5s;
+        background-color: #ffffff;
+    }
+
+    .deserve-section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .deserve-timeline ul::before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: calc(100% - 112px);
+        top: 0;
+        left: 20px;
+        background: #e73c3e;
+    }
+
+    .call-volume a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 7px;
+    }
+
+    .call-volume {
+        margin-top: 35px;
+    }
+
+    .call-to-action-bg {
+        padding: 45px 35px 50px 30px;
+        background-color: rgb(231, 60, 62);
+        border-radius: 6px;
+    }
+
+    .client-slider-img span {
+        position: absolute;
+        bottom: 55px;
+        right: 260px;
+    }
+
+    .client-slider-btn {
+        position: absolute;
+        top: 410px;
+    }
+
+    .leadership-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .story-posts-section {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -1664,7 +1984,7 @@ body .btn-primary:focus{
         display: inline-block;
         color: #111111;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 15px;
         padding-left: 0px;
         padding-right: 12px;
         padding-top: 10px;
@@ -1678,6 +1998,55 @@ body .btn-primary:focus{
         opacity: 1;
         visibility: visible;
         top: 118%;
+    }
+
+    .align-items-center {
+        width: 465px;
+        align-items: center !important;
+    }
+
+    .header-search {
+        width: 40px;
+        text-align: center;
+        font-size: 15px;
+        margin-right: 15px;
+        border-right: 1px solid #8d868663;
+        cursor: pointer;
+    }
+
+    .header-call {
+        width: 150px;
+    }
+
+    .header-call-icon {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .header-call-info a {
+        text-decoration: none;
+        color: #111111;
+        font-weight: 400;
+    }
+
+    .header-button {
+        width: 155px;
+        margin-left: 25px;
+        border-radius: 5px;
+    }
+
+    body .btn-primary {
+        color: #fff;
+        background-color: var(--finix) !important;
+        border-color: var(--finix) !important;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        position: relative;
+        z-index: 0;
     }
 
     .main-banner-sec {        
@@ -2270,8 +2639,5 @@ body .btn-primary:focus{
         font-family: 'Rubik';
     }
 }
-
-
-
 
 /* Full Website Responsive Here End */
